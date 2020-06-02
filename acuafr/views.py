@@ -34,7 +34,7 @@ def index(request):
             acuafrs_json = response.json()
     # Realiza una petición GET al Web Services
     #response = requests.get('http://127.0.0.1:8000/formularios/')
-    response = requests.get('http://pi1-eafit-acua.azurewebsites.net/eventos/')
+    response = requests.get('http://pi1-eafit-acua.azurewebsites.net/formularios/')
     
     # Convierte la respuesta en JSON
     arboles = response.json()
